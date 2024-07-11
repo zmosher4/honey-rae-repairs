@@ -10,7 +10,6 @@ export const Employees = () => {
   const fetchEmployees = async () => {
     const employeeArr = await getAllEmplyoees();
     setEmployees(employeeArr);
-    console.log(employeeArr);
   };
 
   useEffect(() => {
