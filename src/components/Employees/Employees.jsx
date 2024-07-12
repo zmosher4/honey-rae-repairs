@@ -20,7 +20,7 @@ export const Employees = () => {
     <div className="employees">
       {employees.map((employee) => {
         return (
-          <Link key={employee.id} to={`/employees/${employee.id}`}>
+          <Link key={employee.id} to={`/employees/${employee.userId}`}>
             <User user={employee.user} />
           </Link>
         );

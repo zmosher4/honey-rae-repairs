@@ -58,3 +58,7 @@ h2 {
   display: flex;
   margin: 3rem;
 }
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
